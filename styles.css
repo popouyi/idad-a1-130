@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: #f0f9ff;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  color: #34495e;
+}
+
+h2.margin {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #0369a1;
+}
+
+p.margin {
+  margin-top: 0.25rem;
+  font-size: 1.1rem;
+}
+
+a.button {
+  display: inline-block;
+  background-color: #38bdf8;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+  background-color: #0ea5e9;
+}
+
+.ui-section {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.ui-section .sub-section-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sub-section {
+  background-color: #e0f2fe;
+  border: 1px solid #bae6fd;
+  border-radius: 10px;
+  padding: 1.2rem;
+  transition: transform 0.2s ease;
+}
+
+.sub-section:hover {
+  transform: translateY(-3px);
+}
+
+.sub-section h3 {
+  color: #0284c7;
+  margin-bottom: 0.5rem;
+}
+
+.sub-section p {
+  font-size: 1rem;
+  color: #334155;
+}
+
+p.b {
+  margin-top: 0.5rem;
+}
+
+h2 {
+  font-size: 15rem;
+  font-weight: bolder;
+}
+h1 {
+  color: #ffffff;
+  border-style: hidden;
+  border-width: 2px;
+  border-color: #121344;
+  background-color: #0a144b;
+  border-radius: 30px;
+  padding: 3rem;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 5rem;
+}
+.margin {
+  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
+}
